@@ -5,7 +5,7 @@ function checkAnswer(day) {
   const answers = {
     1: "Haus 4, um Mitternacht",
     2: "Geschenk",
-    3: "kerze",
+    3: "Kompass",
   };
 
   const successText = document.getElementById('success-text');
@@ -16,5 +16,6 @@ function checkAnswer(day) {
     alert("Leider falsch, versuche es noch einmal!");
   }
 }
+
 
 
