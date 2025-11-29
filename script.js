@@ -4,7 +4,7 @@ function checkAnswer(day) {
   // Lösungen pro Tag festlegen
   const answers = {
     1: "Haus 4, um Mitternacht",
-    2: "weihnachten",
+    2: "Geschenk",
     3: "kerze",
   };
 
@@ -16,4 +16,5 @@ function checkAnswer(day) {
     alert("Leider falsch, versuche es noch einmal!");
   }
 }
+
 
