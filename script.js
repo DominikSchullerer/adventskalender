@@ -6,6 +6,9 @@ function checkAnswer(day) {
     1: "Haus 4, um Mitternacht",
     2: "Geschenk",
     3: "Kompass",
+    4: "Santa",
+    5: "5+545=550",
+    6: "Schneeflocke"
   };
 
   const successText = document.getElementById('success-text');
@@ -16,6 +19,7 @@ function checkAnswer(day) {
     alert("Leider falsch, versuche es noch einmal!");
   }
 }
+
 
 
 
