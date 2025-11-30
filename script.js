@@ -1,5 +1,5 @@
 function checkAnswer(day) {
-  const input = document.getElementById('answer').value.trim().toLowerCase();
+  const input = document.getElementById('answer').value.trim();
 
   // Lösungen pro Tag festlegen
   const answers = {
@@ -19,6 +19,7 @@ function checkAnswer(day) {
     alert("Leider falsch, versuche es noch einmal!");
   }
 }
+
 
 
 
